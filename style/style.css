@@ -391,6 +391,64 @@
 .bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right {
   padding: 24px 20px;
 }
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time .road {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px 0px 0px 4px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time .time {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time .time-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time .time-warning {
+  border-radius: 8px;
+  background: #FEFACF;
+  padding: 8px 16px;
+  max-width: 161px;
+  margin: 22px 0px 22px 0px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time .time-warning p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .road-and-time .time .sub-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #888888;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .delete {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right .delete p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FF6262;
+}
 .bg-50 .personal-area-right-block .order-wrapper .active {
   display: block;
 }
