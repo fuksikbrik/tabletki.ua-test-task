@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  padding: 0px 79px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 6px 0px;
+  background-color: #43B02A;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content-catalog {
+  border-radius: 12px;
+  border: 1px solid #3B9C25;
+  padding: 8px 16px 8px 8px;
+  display: flex;
+  align-items: center;
+  max-width: 87px;
+  width: -webkit-fill-available;
+}
+.header-content-catalog p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+.header-content-search {
+  padding: 8px 8px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 526px;
+  width: -webkit-fill-available;
+}
+.header-content-search input {
+  border: none;
+  background: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header-content-city {
+  border-radius: 12px;
+  border: 1px solid #3B9C25;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  max-width: 191px;
+  width: -webkit-fill-available;
+}
+.header-content-city p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+.header-content-block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 152px;
+  width: -webkit-fill-available;
+}
+.header-content-block-list {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.header-content-block-list .curent-list {
+  position: absolute;
+  background-color: #F96D15;
+  border-radius: 50px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+}
+.header-content-block-cart {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.header-content-block-cart .curent-list {
+  position: absolute;
+  background-color: #F96D15;
+  border-radius: 50px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+}
+.header-content-block-cart .curent-list p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+.header-content-block .block {
+  width: 32px;
+}
+
+.bg-50 {
+  background: linear-gradient(to right, #F2F2F2 50%, white 50%);
+}
+.bg-50 .personal-area {
+  display: flex;
+}
+.bg-50 .personal-area .title-block {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.bg-50 .personal-area .left {
+  margin-bottom: 42px;
+}
+.bg-50 .personal-area-left-block {
+  max-width: 309px;
+  width: -webkit-fill-available;
+  padding: 32px 0px 32px 0px;
+}
+.bg-50 .personal-area-left-block .hr-block-left {
+  margin-bottom: 13px;
+  margin-top: 13px;
+  border: #D9D9D9 1px solid;
+}
+.bg-50 .personal-area-left-block .list-left-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 24px;
+}
+.bg-50 .personal-area-left-block .list-left-block li {
+  list-style: none;
+}
+.bg-50 .personal-area-left-block .add-new-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8px 0px 0px;
+}
+.bg-50 .personal-area-left-block .paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #888888;
+}
+.bg-50 .personal-area-left-block .active {
+  color: #3B9C25;
+}
+.bg-50 .personal-area-left-block .title-cart {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #888888;
+}
+.bg-50 .personal-area-right-block {
+  max-width: 956px;
+  width: -webkit-fill-available;
+  background-color: white;
+  padding: 32px 0px 32px 20px;
+}
+.bg-50 .personal-area-right-block .hr-block-right {
+  margin: 24px 0px;
+  border: #D9D9D9 1px solid;
+}
+.bg-50 .personal-area-right-block .order-wrapper {
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid #EEF7EB;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order {
+  display: flex;
+  flex-direction: column;
+  background-color: #EEF7EB;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .blocks {
+  display: flex;
+  gap: 10px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 0px 0px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-1 .table-and-date {
+  display: flex;
+  gap: 8px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-1 .table-and-date .table-accept {
+  background-color: #FFFFFF;
+  border: 1px solid #3B9C25;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0px 8px;
+  color: #3B9C25;
+  border-radius: 4px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-1 .table-and-date .date-accept {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-1 .item-number {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-2 .title-and-information {
+  display: flex;
+  align-items: center;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-2 .title-and-information p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .block-2 .title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .price-and-more-information {
+  display: flex;
+  gap: 16px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .price-and-more-information .price p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .price-and-more-information .button-information {
+  background-color: #D9EFD4;
+  border-radius: 8px;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .price-and-more-information .button-information img {
+  transition: 0.3s;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order-information .price-and-more-information .active img {
+  transform: rotate(-180deg);
+}
+.bg-50 .personal-area-right-block .order-wrapper .order .warning {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #FEFACF;
+  max-width: 530px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .order .warning p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working {
+  display: none;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block {
+  display: flex;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left {
+  max-width: 542px;
+  width: -webkit-fill-available;
+  border-right: 1px solid #D9EFD4;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .number-product {
+  padding: 8px 16px;
+  background-color: #D9EFD4;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .number-product p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 16px;
+  gap: 9px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-information {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-information .image-product img {
+  width: 68px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-information .product-discription .name-product {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-information .product-discription .place-of-production {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #888888;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-information .product-discription .number-of-packages {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-information .product-discription img {
+  margin: 8px 0px 8px 0px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .product-card .product-price .total-price-card {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .hr-total-price {
+  border: 1px solid #D9EFD4;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .total-price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-left .total-price-cart p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: #111111;
+}
+.bg-50 .personal-area-right-block .order-wrapper .js-working .more-information-block-right {
+  padding: 24px 20px;
+}
+.bg-50 .personal-area-right-block .order-wrapper .active {
+  display: block;
+}
+
+.footer {
+  padding: 48px 0px;
+  background-color: #F2F2F2;
+}
+.footer .title-footer {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #888888;
+  margin-bottom: 48px;
+}
+.footer-block-info {
+  display: flex;
+  gap: 20px;
+}
+.footer-block-info .footer-block-app-and-partner {
+  max-width: 305px;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.footer-block-info .footer-block-app-and-partner .block-app {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-block-info .footer-block-app-and-partner .block-app .block-app-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-block-info .footer-block-app-and-partner .block-app .app-image {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-block-info .footer-block-app-and-partner .block-partner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-block-info .footer-block-app-and-partner .block-partner .block-partner-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-block-info .footer-block-app-and-partner .block-partner .partner-image {
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+}
+.footer-block-info .footer-destkop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-block-info .footer-destkop-blocks {
+  max-width: 305px;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.footer-block-info .footer-destkop-blocks .footer-destkop-block-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-block-info .footer-destkop-blocks .footer-destkop-block-1 .footer-block-info-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.footer-block-info .footer-destkop-blocks .footer-destkop-block-1 .footer-block-info-sub-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.footer-block-info .footer-destkop-blocks .footer-destkop-block-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-block-info .footer-destkop-blocks .footer-destkop-block-2 .footer-block-info-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.footer-block-info .footer-destkop-blocks .footer-destkop-block-2 .footer-block-info-sub-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.footer .footer-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+.footer .footer-down div p {
+  color: #111;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer .footer-down div a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #3B9C25;
+}
+.footer .footer-down p {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
