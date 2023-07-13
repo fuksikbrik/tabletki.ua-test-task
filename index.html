@@ -9,20 +9,18 @@
     <title>Document</title>
 </head>
 <body>
-
-
-
-
-
-
-
-
-
     <header class="header">
         
         <div class="content">
            <div class="header-content">
-            <a href=""><img src="./icon/logo.svg" alt=""></a>
+            <div class="logo-and-menu">
+                <div class="menu-wrapper">
+                    <img class="menu" src="./icon/menu.svg" alt="">
+                </div>
+                
+                <a href=""><img src="./icon/logo.svg" alt=""></a>
+            </div>
+            
             <div class="header-content-catalog">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <rect x="8" y="8" width="6" height="6" rx="3" stroke="white" stroke-width="2"/>
@@ -74,7 +72,7 @@
             <div class="personal-area">
                 <div class="personal-area-left-block">
                     <p class="title-block left">Особистий кабінет</p>
-                   
+                    
                     <a class="paragraph active" href="">МОЇ БРОНІ</a>
                     <hr class="hr-block-left">
                     <p class="title-cart">МОЇ СПИСКИ ТОВАРІВ</p>
@@ -97,6 +95,12 @@
                 </div>
 
                 <div class="personal-area-right-block">
+                    <div class="mobile-text">
+                        <div class="mobile-text-wrapper">
+                            <img src="./icon/mobile-arrow.svg" alt="">
+                            <p class="table">Особистий кабінет</p>
+                        </div>
+                    </div>
                     <p class="title-block">Мої броні</p>
                     <hr class="hr-block-right">
                     <div class="order-wrapper">
@@ -138,6 +142,8 @@
     
                            
                         </div>
+
+                        
                         <div class="js-working">
                             <div class="more-information-block">
                                 <div class="more-information-block-left">
@@ -255,6 +261,59 @@
         </div>
 </div>
 
+    <div class="block-mobile">
+        <div class="exit-and-title">
+            <img src="./icon/mobile-arrow.svg" alt="">
+            <p class="title">Особистий кабінет</p>
+        </div>
+        <p class="title-block">Мої броні</p>
+        <div class="green-mobile-block">
+                <div class="green-mobile-block-wrapper">
+                        <div class="line-1">
+                            <div class="block-left">
+                                <div class="block-left-line-1">
+                                    <p class="table">Бронь створено</p>
+                                    <p class="date">04.04.2023 в 09:45</p>
+                                </div>
+                                <p class="number-product">№122010210, №122010212, <br> №122010213</p>
+                                
+                            </div>
+                            <div class="button-more-information-mobile">
+                                <img src="./icon/arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="warning">
+                                <img src="./icon/ahtung.svg" alt="">
+                                <p>Назвіть додаткові номери бронювань для отримання рецептурних товарів</p>
+                        </div>
+
+                        <p class="green-text">Бронь передано аптеці, очікуйте підтвердження</p>
+                        <hr class="hr-mobile">
+                        <div class="apteka">
+                             <p>Аптека TAS</p>
+                             <img src=".\icon\I.svg" alt="">
+                            </div>
+                        <p class="title-mobile">Відчинено до 21:00</p>
+                        <p class="title-mobile">вул. Саперно-Слобідська 10, Київ</p>
+                        <hr class="hr-mobile">
+                        <p class="title-list">№122010210:</p>
+                        <ul class="item-list">
+                            <li >Магнікор, таб. №30</li>
+                        </ul>
+                        <p class="title-list">№122010213 (за рецептом):</p>
+                        <ul class="item-list">
+                            <li >Каптопрес-дарница табл. 50мг/25мг №20</li>
+                        </ul>
+                        <p class="title-list">№122010213 (за рецептом):</p>
+                        <ul class="item-list">
+                            <li >Каптопрес-дарница табл. 50мг/25мг №20</li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+
+    
+
 <hr class="hr-footer">
 <footer class="footer">
     <div class="content">
@@ -306,6 +365,79 @@
                         </div>
                     </div>
                 </div>
+                <div class="footer-mobile">
+                    <div class="tab">
+                        <div class="tab-title">
+                            <p>Користувачам</p>
+                            <img src="./icon/arrow-footer.svg" alt="">
+                        </div>
+                        <div class="tab-content">
+                            <a href="">Аптеки поблизу</a>
+                            <a href="">Доставка і оплата</a>
+                            <a href="">Умови повернення</a>
+                            <a href="">Розширений пошук</a>
+                            <a href="">Новини партнерів</a>
+                            <a href="">Політика конфіденційності</a>
+                            <a href="">Угода користувача</a>
+                        </div>
+                        <hr class="hr-mobile-content">
+                    </div>
+                    <div class="tab">
+                        <div class="tab-title">
+                            <p>МОВА ІНТЕРФЕЙСУ</p>
+                            <img src="./icon/arrow-footer.svg" alt="">
+                        </div>
+                        <div class="tab-content">
+                            <a href="">Українська</a>
+                            <a href="">Російська</a>
+                        </div>
+                        <hr class="hr-mobile-content">
+                    </div>
+                    <div class="tab">
+                        <div class="tab-title">
+                            <p>ІНФОРМАЦІЯ</p>
+                            <img src="./icon/arrow-footer.svg" alt="">
+                        </div>
+                        <div class="tab-content">
+                            <a href="">Про нас</a>
+                            <a href="">Редакторська команда</a>
+                            <a href="">ЗМІ про нас</a>
+                            <a href="">Про бронювання</a>
+                            <a href="">Контакти</a>
+                            <a href="">Зворотній звязок</a>
+                            <a href="">Блог</a>
+                            <a href="">Наші партнери</a>
+                        </div>
+                        <hr class="hr-mobile-content">
+                    </div>
+                    <div class="tab">
+                        <div class="tab-title">
+                            <p>ПАРТНЕРАМ</p>
+                            <img src="./icon/arrow-footer.svg" alt="">
+                        </div>
+                        <div class="tab-content">
+
+                            <a href="">Розмістити аптеку</a>
+                            <a href="">Особистий кабінет аптеки</a>
+                            <a href="">Політика щодо реклами і спонсорства</a>
+                        
+                        </div>
+                        <hr class="hr-mobile-content">
+
+                    </div>
+                    <div class="tab">
+                        <div class="tab-title">
+                            <p>ФАХІВЦЯМ</p>
+                            <img src="./icon/arrow-footer.svg" alt="">
+                        </div>
+                        <div class="tab-content">
+                            <a href="">Розмістити аптеку</a>
+                            <a href="">Особистий кабінет аптеки</a>
+                            <a href="">Політика щодо реклами і спонсорства</a>
+                        </div>
+                        <hr class="hr-mobile-content">
+                    </div>
+                </div>
                 <div class="footer-block-app-and-partner">
 
                     <div class="block-app">
@@ -315,6 +447,7 @@
                             <a href=""><img src="./icon/GooglePlay.svg" alt=""></a>
                             <a href=""><img src="./icon/AppGallary.svg" alt=""></a>
                         </div>
+                        <hr class="hr-mobile-content">
                     </div>
 
                     <div class="block-partner">
@@ -323,6 +456,7 @@
                             <a href=""><img src="./icon/MOY.svg" alt=""></a>
                             <a href=""><img src="./icon/BIBIKOM.svg" alt=""></a>
                         </div>
+                        <hr class="hr-mobile-content">
                     </div>
 
                 </div>
